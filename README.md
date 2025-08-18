@@ -1,0 +1,1 @@
+# ngptechnology static pages
