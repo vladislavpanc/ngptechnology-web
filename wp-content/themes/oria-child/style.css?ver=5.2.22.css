@@ -1,0 +1,229 @@
+/*
+Theme Name: Oria Child
+Theme URI: http://justfreethemes.com/oria
+Template: oria
+Author: Radek Chromý
+Author URI: https://radekchromy.cz
+Description: Oria is a responsive masonry theme that lets you tell your stories in a clean and modern environment. Some of the features are: parallax header image, social menu, custom colors, easy access to all Google Fonts, a built-in featured posts carousel. A full demo is available here: http://demo.flyfreemedia.com/oria
+Tags: custom-colors,custom-background,custom-menu,custom-header,featured-images,sticky-post,theme-options,threaded-comments,translation-ready
+Version: 1.07.1506502916
+Updated: 2017-09-27 11:01:56
+
+*/
+
+/* HEADER  */
+.site-header::after {
+    background-color: rgba(0,0,0,0);
+}
+.site-branding {
+	overflow: hidden;
+	padding: 0px 15px;
+}
+.site-title {
+	padding-top: 40px;
+	padding-bottom: 40px;
+	font-size: 3em !important;
+	line-height: 1em;
+    max-width: 300px;
+	color: #3D7692;
+
+     	
+}
+.site-description {
+	padding: 20px;
+	display: block;
+	top: 10px;
+}
+
+
+/* MENU */
+.main-navigation a {
+	padding: 8px 20px;
+}
+.main-navigation {
+	background: #3c7693;
+	border: none;
+}
+
+.slicknav_menu {
+	background: #3c7693;
+}
+
+body {
+    line-height: 1 !important;
+}
+
+#content ximg {
+    box-shadow: 1px 1px 10px #333;
+}
+
+/* POST OVERVIEW */
+.entry-title {
+    font-weight: bold;
+}
+
+.small-table {
+    border: none;    
+    font-size: 70%;
+}
+.small-table-tr {
+	border-bottom: solid 1px #999;
+}
+.small-table-th {
+	padding-top: 1px !important;
+	padding-bottom: 1px !important;
+	background: #eee;
+	vertical-align: middle;
+	border:none;
+	width: 40%;
+}
+.small-table-td {
+	padding-top: 1px !important;
+	padding-bottom: 1px !important;
+	vertical-align: middle;
+	text-align: center;
+	border:none;
+}
+
+.detail-table {
+    width: auto;
+    border-top: solid 2px #ddd;
+    border-left: none;
+    border-bottom: none;
+    border-right: none;
+    margin: 20px auto;
+}
+.detail-table-tr {
+	border-bottom: solid 0.5px #eee;
+	height: 2em;
+}
+.detail-table-th {
+	padding-top: 1px !important;
+	padding-bottom: 1px !important;
+	background: #fffffa;
+	vertical-align: middle;
+	border:none;
+	width: 30%;
+}
+.detail-table-td {
+	padding-top: 1px !important;
+	padding-bottom: 1px !important;
+	vertical-align: middle;
+	text-align: left;
+	border:none;
+
+}
+
+/* FOOTER */
+.site-footer {
+	background: #3c7693; 
+}
+
+.site-footer a {
+	color: #ffffff !important;
+}
+
+.footer-widgets {
+	background: #3c7693;
+}
+#sidebar-footer a {
+	color: #ffffff !important;
+}
+
+
+/* ARCHIVE */
+
+.archive-header {
+	margin: auto !important;
+}
+
+.archive-title {
+	font-weight: bold;
+	margin: 0;
+}
+
+
+
+
+
+/* SINGLE a CONTENT*/
+.item-sizer {
+	margin: 10px;
+}
+.entry-title {
+	height: 2.2em;
+    overflow: hidden;
+}
+.entry-thumb {
+	margin-bottom:10px;
+	height: 200px;
+}
+.entry-thumb img {
+    max-width: 100%;
+    max-height: 200px;
+    width: auto;
+    height: auto;
+}
+
+.entry-prodano {
+	position: absolute;
+    left: 15px;
+    top: 15px;
+}
+
+.single-prodano {
+	float:left;
+}
+
+.entry-detail {
+	float: right;
+	padding-bottom: 10px;
+}
+
+#primary {
+	margin: auto;
+    float: none;
+	width: 100% !important;
+}
+#main {
+	width: 100% !important;
+}
+.entry-content {
+	line-height: 1.5em;
+}
+.entry-content-images {
+	overflow: hidden;
+}
+.next-entry-content {
+	padding-bottom: 20px;
+	width: 100%;
+	overflow:auto;
+}
+
+.post-slide-img {
+	position: relative;
+    float: left;
+    padding: 10px;
+    margin: 0 auto;
+    max-width: 25%;
+    max-height: 200px;
+    width: auto;
+    height: auto;
+    
+}
+
+.hentry {
+	margin:30px;
+}
+
+/* PLUGINS */
+
+.pirate-forms-submit-button {
+	background-color: #3D7692;
+	border-color: #fff;
+	font-size: 1em;
+}
+.form-control {
+	font-size: 1em;
+	height: auto;
+}
